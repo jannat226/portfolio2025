@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 //Please replace placeholders with your content for SEO
 export const metadata: Metadata = {
-  title: "Next.js portfolio template",
+  title: "portfolio ",
   description:
     "My Portfolio",
   icons: {
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
   },
   //openGraph is used by platforms like Facebook, LinkedIn, and others to generate link previews when sharing a page.
   openGraph: {
-    title: "Next.js portfolio template",
+    title: "portfolio ",
     description:
       "My Portfolio",
       url: "https://jannatPortfolio.vercel.app/",
     // url: "https://next-portfolio-template-og.vercel.app/",
-    siteName: "Next.js portfolio template",
+    siteName: "Next.js portfolio ",
     images: [
       {
         url: "/template-images/portfolioIMG.jpg",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Next.js portfolio template",
     description:
       "My Portfolio",
-    images: ["/template-images/next-template-image.png"],
+    images: ["/template-images/portfolioIMG.jpg"],
   },
 };
 
