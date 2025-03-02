@@ -7,14 +7,16 @@ import Image from "next/image";
 
 const RecentProjects = () => {
   return (
-    <div className="section pb-0">
+    <div className="section pb-6">
       <p className="section-header">Recent Projects</p>
-      <div className="flex flex-wrap items-center justify-center gap-10">
-        {projects.map((item) => (
-          <div
-            className="lg:min-h-[22rem] h-[16rem] flex items-center justify-center sm:w-96 w-[80vw]"
-            key={item.id}
-          >
+      <div className="flex flex-wrap items-center justify-start gap-10">
+  {projects.map((item, index) => (
+    <div
+      className={`lg:min-h-[22rem] h-[16rem] flex items-center justify-center sm:w-96 w-[80vw] ${
+        index < projects.length - 1 ? "mb-10" : "" /* Adds space between rows */
+      }`}
+      key={item.id}
+    >
             <PinContainer title="Projects" href="https://github.com/jannat226">
               {/* Image Container with Proper Sizing */}
               <div className="relative flex items-center justify-center sm:w-80 w-[70vw] overflow-hidden h-[18vh] lg:h-[22vh] mb-2">

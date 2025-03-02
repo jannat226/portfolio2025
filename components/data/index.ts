@@ -22,7 +22,7 @@ export const projects = [
     title: "Time Capsule",
     des: "An website which can send you or your loved one the reminders of certain memories after the destined time period ",
     img: "/TimeCapsule.png",
-    iconLists: ["/re.svg", "/tail.svg", "/mongodb.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/mongoDb.svg"],
     link: "https://github.com/jannat226/ESE-Componet--III-WSD-Project-",
   },
   
