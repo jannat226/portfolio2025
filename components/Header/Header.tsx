@@ -50,7 +50,7 @@ export default function Header() {
               <Github size={18} />
               <p className="icon-text">GitHub</p>
             </Link>
-            <Link href="/JannatResume2025.pdf" target="_blank" className="icons">
+            <Link href="/Jannat_Professional_Resume.pdf" target="_blank" className="icons">
               <FileText size={18} />
               <p className="icon-text">Resume</p>
             </Link>
