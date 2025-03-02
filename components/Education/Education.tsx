@@ -17,7 +17,7 @@ export default function Education() {
       <div className="flex flex-col gap-1">
         <p className="text-title">CHRIST (Deemed to be University),India </p>
         <div className="flex flex-col gap-1  md:flex-row justify-between">
-          <p className="italic date-text">
+          <p className="date-text">
             MS in Computer Applications
           </p>
           <p className="date-text">July 2023 – May 2024</p>

@@ -25,7 +25,7 @@ export default function Footer() {
             <Link
               href="https://www.linkedin.com/in/jannat-chehal/"
                target="_blank"
-              className="text-neutral-800 hover:underline "
+              className="flex gap-1 text-muted-foreground text-sm hover:underline "
             >
               Jannat
             </Link>
