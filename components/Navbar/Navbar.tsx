@@ -20,8 +20,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-6 left-1/2 -translate-x-1/2 bg-white dark:bg-gray-900 text-gray-900 dark:text-white px-6 py-2 rounded-full shadow-lg z-50 flex items-center justify-between md:justify-center gap-6 w-full max-w-screen-lg transition-all duration-300">
-      {/* Mobile Menu Toggle (Hidden on Desktop) */}
+    <nav className="fixed top-6 left-1/2 -translate-x-1/2 bg-white dark:bg-gray-900 text-gray-900 dark:text-white px-6 py-2 rounded-full shadow-lg z-50 flex items-center justify-between md:justify-center gap-6 w-full max-w-screen-lg transition-all duration-300 font-sans">
+
       <button
         className="md:hidden p-2 rounded-full bg-gray-200 dark:bg-gray-800 transition"
         onClick={() => setMenuOpen(!menuOpen)}

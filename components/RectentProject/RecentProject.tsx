@@ -7,59 +7,48 @@ import Image from "next/image";
 
 const RecentProjects = () => {
   return (
-    <div className="section">
+    <div className="section pb-0">
       <p className="section-header">Recent Projects</p>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16">
+      <div className="flex flex-wrap items-center justify-center gap-10">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="lg:min-h-[22rem] h-[16rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title="Projects"
-              href="https://github.com/jannat226"
-            >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+            <PinContainer title="Projects" href="https://github.com/jannat226">
+              {/* Image Container with Proper Sizing */}
+              <div className="relative flex items-center justify-center sm:w-80 w-[70vw] overflow-hidden h-[18vh] lg:h-[22vh] mb-2">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <Image src="/bg.png" alt="bgimg" width={100} height={100} unoptimized />
+                  <Image src="/bg.png" alt="bgimg" layout="fill" objectFit="cover" />
                 </div>
+                {/* Fix Image Fit Issue */}
                 <Image
                   src={item.img}
                   alt="cover"
-                  width={40}
-                  height={40}
-                  className="z-10 absolute bottom-0 w-full h-full object-cover"
+                  layout="fill"
+                  objectFit="cover"
+                  className="z-10 absolute bottom-0 w-full h-full"
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {item.title}
-              </h1>
+              <h1 className="section-header mt-2">{item.title}</h1>
 
-              <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
-                style={{
-                  color: "#BEC1DD",
-                  margin: "1vh 0",
-                }}
-              >
+              <p className="main-color" style={{ color: "#BEC1DD", margin: "0.5vh 0" }}>
                 {item.des}
               </p>
 
-              <div className="flex items-center justify-between mt-7 mb-3">
+              <div className="flex items-center justify-between mt-2 mb-1">
                 <div className="flex items-center">
                   {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
+                      className="border border-white/[.2] rounded-full bg-black lg:w-8 lg:h-8 w-6 h-6 flex justify-center items-center"
+                      style={{ transform: `translateX(-${4 * index + 2}px)` }}
                     >
-                      <Image src={icon} alt="icon" width={40} height={40} />
+                      <Image src={icon} alt="icon" width={24} height={24} />
                     </div>
                   ))}
                 </div>
@@ -69,7 +58,7 @@ const RecentProjects = () => {
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                    className="flex text-purple"
                   >
                     Check Source Code
                   </a>
