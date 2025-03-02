@@ -10,7 +10,7 @@ interface Projects {
 // You can add as many tech stack icons here
 export const techIcons: { [key: string]: string } = {
     // 🚀 Web Development
-    "Next.js": "/Icons/next.svg",
+    // "Next.js": "/Icons/next.svg",
     "React.js": "/Icons/react.svg",
     "Node.js": "/Icons/node.svg",
     "Express.js": "/Icons/express-color.svg",
