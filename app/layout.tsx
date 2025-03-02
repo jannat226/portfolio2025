@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Next.js portfolio template",
   description:
-    "A next.js portfolio template for students to easily deploy and share more about themselves",
+    "My Portfolio",
   icons: {
     //icon displayed in the browser tab and bookmarks
     icon: "favicon.ico",
@@ -27,12 +27,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Next.js portfolio template",
     description:
-      "A next.js portfolio template for students to easily deploy and share more about themselves",
-    url: "https://next-portfolio-template-og.vercel.app/",
+      "My Portfolio",
+      url: "https://jannatPortfolio.vercel.app/",
+    // url: "https://next-portfolio-template-og.vercel.app/",
     siteName: "Next.js portfolio template",
     images: [
       {
-        url: "/template-images/next-template-image.png",
+        url: "/template-images/portfolioIMG.jpg",
         width: 756,
         height: 440,
         alt: "portfolio-image",
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Next.js portfolio template",
     description:
-      "A next.js portfolio template for students to easily deploy and share more about themselves",
+      "My Portfolio",
     images: ["/template-images/next-template-image.png"],
   },
 };
