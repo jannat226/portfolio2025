@@ -8,7 +8,7 @@ export const projects = [
       // Built multiple CNN-based models and an ensemble using PyTorch Lightning.
     img: "/gutBrain.png",
    
-    iconlist: ["python.svg","/Icons/pytorch.png","/Icons/huggingFace.png","/Icons/nlp.png"],
+    iconlist: ["python.svg","pytorch.png","huggingFace.png","nlp.png"],
     link: "https://github.com/NLPatVCU/GutBrainIE/tree/cnn",
   },
   {
