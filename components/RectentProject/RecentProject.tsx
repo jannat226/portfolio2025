@@ -27,13 +27,13 @@ const RecentProjects = () => {
                   <Image src="/bg.png" alt="bgimg" layout="fill" objectFit="cover" />
                 </div>
                 {/* Fix Image Fit Issue */}
-                {/* <Image
+                <Image
                   src={item.img}
                   alt="cover"
                   layout="fill"
                   objectFit="cover"
                   className="z-10 absolute bottom-0 w-full h-full"
-                /> */}
+                />
               </div>
 
               <h1 className="section-header mt-2">{item.title}</h1>
@@ -44,7 +44,7 @@ const RecentProjects = () => {
 
               <div className="flex items-center justify-between mt-2 mb-1">
                 <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
+                  {/* {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-8 lg:h-8 w-6 h-6 flex justify-center items-center"
@@ -52,7 +52,7 @@ const RecentProjects = () => {
                     >
                       <Image src={icon} alt="icon" width={24} height={24} />
                     </div>
-                  ))}
+                  ))} */}
                 </div>
 
                 <div className="flex justify-center items-center">
