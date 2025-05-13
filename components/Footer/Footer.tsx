@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="footer-container">
         <div className="flex items-center gap-2">
           <p className="text-sm text-muted-foreground">Last updated on</p>
-          <span className="current-date text-xs">March 01 2025</span>
+          {/* <span className="current-date text-xs">March 01 2025</span> */}
         </div>
         <div className="flex gap-3 items-center">
          

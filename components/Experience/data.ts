@@ -10,6 +10,14 @@ interface Experience {
 // If you want to have the current badge, please add the (date - Current) to activate
 export const experiences: Experience[] = [
   {
+    title: "Research Assistant",
+    company: "Natural Language Processing Lab, Virginia Commonwealth University",
+    logo: "/company-logos/logo-2.png",
+    date: "Jan 2025 – Present",
+    description:
+      "– Preprocessed large-scale NLP datasets using Python to generate clean, tokenized, and structured inputs for model training.\n– Contributed to a relationship extraction model using PyTorch, supporting architecture design, training, and implementation.\n– Applied TorchMetrics for postprocessing and evaluation, ensuring accurate performance benchmarking on NLP-specific metrics.",
+  },
+  {
     title: "Teaching Assistant",
     company: "Virginia Commonwealth University",
     logo: "/company-logos/logo-2.png",
