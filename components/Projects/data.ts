@@ -16,9 +16,9 @@ export const techIcons: { [key: string]: string } = {
   Firebase: "/Icons/firebase.svg",
   Python: "/Icons/python.svg",
   Javascript: "/Icons/javascript.svg",
-  PytorchLightning :"Icons/pytorch.png",
-  HuggingFace:"Icons/huggingFace.png",
-  NLP:"Icons/nlp.png"
+  PytorchLightning :"/Icons/pytorch.png",
+  HuggingFace:"/Icons/huggingFace.png",
+  NLP:"/Icons/nlp.png"
 };
 
 // You can update and add as many experiences you would like
