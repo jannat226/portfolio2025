@@ -27,13 +27,13 @@ const RecentProjects = () => {
                   <Image src="/bg.png" alt="bgimg" layout="fill" objectFit="cover" />
                 </div>
                 {/* Fix Image Fit Issue */}
-                <Image
+                {/* <Image
                   src={item.img}
                   alt="cover"
                   layout="fill"
                   objectFit="cover"
                   className="z-10 absolute bottom-0 w-full h-full"
-                />
+                /> */}
               </div>
 
               <h1 className="section-header mt-2">{item.title}</h1>

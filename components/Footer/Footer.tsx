@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="w-full flex justify-center ">
       <div className="footer-container">
         <div className="flex items-center gap-2">
-          <p className="text-sm text-muted-foreground">Last updated on</p>
+          {/* <p className="text-sm text-muted-foreground">Last updated on</p> */}
           {/* <span className="current-date text-xs">March 01 2025</span> */}
         </div>
         <div className="flex gap-3 items-center">
