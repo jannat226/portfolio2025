@@ -10,7 +10,7 @@ interface Projects {
 // You can add as many tech stack icons here
 export const techIcons: { [key: string]: string } = {
     // 🚀 Web Development
-    // "Next.js": "/Icons/next.svg",
+    "Next.js": "/Icons/next.svg",
     "React.js": "/Icons/react.svg",
     "Node.js": "/Icons/node.svg",
     "Express.js": "/Icons/express-color.svg",
@@ -26,7 +26,7 @@ export const techIcons: { [key: string]: string } = {
     // ⚙️ Backend & Databases
     // "Go": "/Icons/go.svg",
     // "Kotlin": "/Icons/kotlin.svg",
-    "PostgreSQL": "/Icons/postgresql.svg",
+    "PostgreSQL": "/Icons/postgres.png",
     "MongoDB": "/Icons/mongodb-color.svg",
     "Firebase": "/Icons/firebase.svg",
     "MySQL": "/Icons/mysql-color.svg",
@@ -37,7 +37,7 @@ export const techIcons: { [key: string]: string } = {
     // 🤖 Machine Learning & AI
     "Python": "/Icons/python-color.svg",
     "TensorFlow": "/Icons/tensorflow-color.svg",
-    // "PyTorch": "/Icons/pytorch.svg",
+    "PyTorch": "/Icons/pytorch.png",
     "Scikit-Learn": "/Icons/scikitlearn-color.svg",
     // "OpenCV": "/Icons/opencv.svg",
     // "Keras": "/Icons/keras.svg",
