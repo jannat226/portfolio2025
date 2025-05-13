@@ -3,7 +3,7 @@ export const projects = [
   {
     title: "GutBrainIE",
     des:
-      "Designed a relation extraction pipeline for PubMed abstracts and titles focused on gut-brain axis literature. Built multiple CNN-based models and an ensemble using PyTorch Lightning. Handled data preprocessing, postprocessing, and evaluation with TorchMetrics, targeting biomedical NLP. Contributed to preprocessing scripts, ensemble logic, and model training workflows.",
+      "Designed a relation extraction pipeline for PubMed abstracts and titles focused on gut-brain axis literature.",
     img: "/public/gutBrain.png",
    
     iconlist: ["python.svg","/Icons/pytorch.png","/Icons/huggingFace.png","/Icons/nlp.png"],
@@ -12,7 +12,7 @@ export const projects = [
   {
     id: 1,
     title: "Crawler-Python Script",
-    des: "Automation for downloading the tenders files from the government tender websiye",
+    des: "Automation for downloading the tenders files from the government tender website",
     img: "/Crawler.png",
     iconLists: ["python.svg","selenium.svg"],
     link: "https://bitbucket.org/jannatjiya/karnataka_eprocurement/src/main/tender_test/test_tender.py",
