@@ -16,7 +16,7 @@ export const techIcons: { [key: string]: string } = {
   Firebase: "/Icons/firebase.svg",
   Python: "/Icons/python.svg",
   Javascript: "/Icons/javascript.svg",
-  PytorchLightning :"/Icons/pytorch.png",
+  PyTorchLightning :"/Icons/pytorch.png",
   HuggingFace:"/Icons/huggingFace.png",
   NLP:"/Icons/nlp.png"
 };
@@ -29,7 +29,7 @@ export const projects: Projects[] = [
     description:
       "Designed a relation extraction pipeline for PubMed abstracts and titles focused on gut-brain axis literature. Built multiple CNN-based models and an ensemble using PyTorch Lightning. Handled data preprocessing, postprocessing, and evaluation with TorchMetrics, targeting biomedical NLP. Contributed to preprocessing scripts, ensemble logic, and model training workflows.",
     date: "May 2025",
-    stack: ["Python", "PyTorchLightning", "NLP", "Hugging Face"],
+    stack: ["Python", "PyTorchLightning", "NLP", "HuggingFace"],
   },  
   {
     name: "RideShare",
