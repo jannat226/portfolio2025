@@ -19,7 +19,7 @@ const RecentProjects = () => {
           >
             <PinContainer title="Projects" href="https://github.com/jannat226">
               {/* Fixed Image Container */}
-              <div className="relative flex items-center justify-center sm:w-80 w-[70vw] overflow-hidden h-[18vh] lg:h-[22vh] mb-2 bg-[#13162D] lg:rounded-3xl">
+              <div className="relative flex items-center justify-center sm:w-80 w-[70vw] overflow-hidden h-[18vh] lg:h-[22vh] mb-2 bg-gray-100 dark:bg-[#13162D] lg:rounded-3xl">
                 {/* Background Image */}
                 <Image 
                   src="/bg.png" 
