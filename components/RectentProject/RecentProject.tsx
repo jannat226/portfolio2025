@@ -10,35 +10,39 @@ const RecentProjects = () => {
     <div className="section pb-6">
       <p className="section-header">Recent Projects</p>
       <div className="flex flex-wrap items-center justify-start gap-10">
-  {projects.map((item, index) => (
-    <div
-      className={`lg:min-h-[22rem] h-[16rem] flex items-center justify-center sm:w-96 w-[80vw] ${
-        index < projects.length - 1 ? "mb-10" : "" /* Adds space between rows */
-      }`}
-      key={item.id}
-    >
+        {projects.map((item, index) => (
+          <div
+            className={`lg:min-h-[22rem] h-[16rem] flex items-center justify-center sm:w-96 w-[80vw] ${
+              index < projects.length - 1 ? "mb-10" : ""
+            }`}
+            key={item.id}
+          >
             <PinContainer title="Projects" href="https://github.com/jannat226">
-              {/* Image Container with Proper Sizing */}
-              <div className="relative flex items-center justify-center sm:w-80 w-[70vw] overflow-hidden h-[18vh] lg:h-[22vh] mb-2">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
-                  <Image src="/bg.png" alt="bgimg" layout="fill" objectFit="cover" />
-                </div>
-                {/* Fix Image Fit Issue */}
-                <Image
-                  src={item.img}
-                  alt="cover"
-                  layout="fill"
-                  objectFit="cover"
-                  className="z-10 absolute bottom-0 w-full h-full object-contain p-1"
+              {/* Fixed Image Container */}
+              <div className="relative flex items-center justify-center sm:w-80 w-[70vw] overflow-hidden h-[18vh] lg:h-[22vh] mb-2 bg-[#13162D] lg:rounded-3xl">
+                {/* Background Image */}
+                <Image 
+                  src="/bg.png" 
+                  alt="background" 
+                  fill
+                  className="object-cover"
                 />
-
+                
+                {/* Main Project Image - Fixed */}
+                <div className="relative w-full h-full p-2 z-10 flex items-center justify-center">
+                  <Image
+                    src={item.img}
+                    alt={item.title}
+                    fill
+                    className="object-contain rounded-lg"
+                    style={{
+                      padding: '8px'
+                    }}
+                  />
+                </div>
               </div>
 
               <h1 className="section-header mt-2">{item.title}</h1>
-
               <p className="main-color" style={{ color: "#BEC1DD", margin: "0.5vh 0" }}>
                 {item.des}
               </p>
@@ -51,7 +55,15 @@ const RecentProjects = () => {
                       className="border border-white/[.2] rounded-full bg-black lg:w-8 lg:h-8 w-6 h-6 flex justify-center items-center"
                       style={{ transform: `translateX(-${4 * index + 2}px)` }}
                     >
-                      <Image src={icon} alt="icon" width={24} height={24} />
+                      {/* Fixed Icon Images */}
+                      <div className="relative w-4 h-4 lg:w-5 lg:h-5">
+                        <Image 
+                          src={icon} 
+                          alt="tech icon" 
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
                     </div>
                   ))}
                 </div>
