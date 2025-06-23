@@ -18,17 +18,17 @@ export default function About() {
     <div className="section">
       <p className="section-header">About</p>
       <p className="main-color leading-relaxed text-justify">
-        Hi, I’m <span className="font-semibold">Jannat</span> — a passionate software engineer 
+        Hi, I am <span className="font-semibold">Jannat</span> — a passionate software engineer 
         currently pursuing my <span className="italic">Master of Science in Computer Science</span> 
         at Virginia Commonwealth University. I specialize in backend development, algorithms, and 
-        machine learning. I’ve worked with modern tools like <span className="font-medium">React</span>, 
+        machine learning. I have worked with modern tools like <span className="font-medium">React</span>, 
         <span className="font-medium"> React Native</span>, <span className="font-medium">Node.js</span>, 
         <span className="font-medium">Python</span>, and <span className="font-medium">NLP frameworks</span> to build 
         scalable, efficient, and user-centric applications.
         <br /><br />
-        Whether I’m optimizing data pipelines or crafting intuitive UI, I love solving real-world problems 
-        through tech. When I'm not coding, you’ll find me exploring new frameworks or chasing down bugs 
-        like it’s a competitive sport.
+        Whether I am optimizing data pipelines or crafting intuitive UI, I love solving real-world problems 
+        through tech. When I am not coding, you will find me exploring new frameworks or chasing down bugs 
+        like its a competitive sport.
       </p>
     </div>
   );
