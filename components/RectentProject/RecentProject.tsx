@@ -32,7 +32,7 @@ const RecentProjects = () => {
                   alt="cover"
                   layout="fill"
                   objectFit="cover"
-                  className="z-10 absolute bottom-0 w-full h-full"
+                  className="z-10 absolute bottom-0 w-full h-full object-contain p-1"
                 />
 
               </div>
