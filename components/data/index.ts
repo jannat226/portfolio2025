@@ -1,5 +1,6 @@
 
 export const projects = [
+  
   {
     id:1,
     title: "GutBrainIE",
@@ -13,6 +14,14 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Tennis Analysis",
+    des: "Analyzes tennis videos for player & ball tracking, court line detection, and performance visualization using modern computer vision.",
+    img: "//tennisAnalysis.png", // make sure this image is added to your public folder
+    iconLists: ["python.svg", "opencv.svg", "streamlit.svg"],
+    link: "https://github.com/jannat226/TennisAnalysis",
+  },
+  {
+    id: 3,
     title: "Carpooling App",
     des: "Seamlessly connect with colleagues and friends who needs a ride and those who can provide ride to the campus.",
     
@@ -21,22 +30,15 @@ export const projects = [
     link: "https://github.com/jannat226/ridesharee",
   },
   {
-    id: 3,
+    id: 4,
     title: "Crawler-Python Script",
-    des: "Automation for downloading the tenders files from the government tender website",
+    des: "Automation for downloading thousands of the tenders files locally from the government tender website",
     img: "/Crawler.png",
     iconLists: ["python.svg","selenium.svg"],
     link: "https://bitbucket.org/jannatjiya/karnataka_eprocurement/src/main/tender_test/test_tender.py",
    
   },
-   {
-    id: 4,
-    title: "Tennis Analysis",
-    des: "Analyzes tennis videos for player & ball tracking, court line detection, and performance visualization using modern computer vision.",
-    img: "//Crawler.png", // make sure this image is added to your public folder
-    iconLists: ["python.svg", "opencv.svg", "streamlit.svg"],
-    link: "https://github.com/jannat226/TennisAnalysis",
-  },
+   
   // {
   //   id: 3,
   //   title: "Time Capsule",
