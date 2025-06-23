@@ -29,6 +29,14 @@ export const projects = [
     link: "https://bitbucket.org/jannatjiya/karnataka_eprocurement/src/main/tender_test/test_tender.py",
    
   },
+   {
+    id: 4,
+    title: "Tennis Analysis",
+    des: "Analyzes tennis videos for player & ball tracking, court line detection, and performance visualization using modern computer vision.",
+    img: "//Crawler.png", // make sure this image is added to your public folder
+    iconLists: ["python.svg", "opencv.svg", "streamlit.svg"],
+    link: "https://github.com/jannat226/TennisAnalysis",
+  },
   // {
   //   id: 3,
   //   title: "Time Capsule",
