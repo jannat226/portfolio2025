@@ -16,7 +16,7 @@ export const projects = [
     id: 2,
     title: "Tennis Analysis",
     des: "Analyzes tennis videos for player & ball tracking, court line detection, and performance visualization using modern computer vision.",
-    img: "//tennisAnalysis.png", // make sure this image is added to your public folder
+    img: "/tennisAnalysis.png", // make sure this image is added to your public folder
     iconLists: ["python.svg", "opencv.svg", "streamlit.svg"],
     link: "https://github.com/jannat226/TennisAnalysis",
   },
