@@ -5,7 +5,7 @@ export const projects = [
     id:1,
     title: "GutBrainIE",
     des:
-      "Designed a relation extraction pipeline focused on gut-brain axis literature.  ",
+      "Designed a robust relation extraction pipeline focused on gut-brain biome axis literature. ",
       // Built multiple CNN-based models and an ensemble using PyTorch Lightning.
     img: "/gutBrain.png",
    
