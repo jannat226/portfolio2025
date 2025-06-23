@@ -34,6 +34,7 @@ const RecentProjects = () => {
                   objectFit="cover"
                   className="z-10 absolute bottom-0 w-full h-full"
                 />
+
               </div>
 
               <h1 className="section-header mt-2">{item.title}</h1>

@@ -60,6 +60,15 @@ interface Projects {
   description: string;
   date: string;
   stack: string[];
+  
+}
+interface Projects {
+  name: string;
+  href: string;
+  description: string;
+  date: string;
+  stack: string[];
+  
 }
 
 export const techIcons: { [key: string]: string } = {
