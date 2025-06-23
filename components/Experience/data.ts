@@ -76,8 +76,8 @@ export const experiences: Experience[] = [
     logo: "/company-logos/logo-1.png",
     date: "Sep 2024 – Dec 2024",
     description: [
-      "Mentored 60+ students weekly in C programming labs, guiding them in debugging, data structures, and algorithmic thinking.",
-      "Supported 40+ first-year students in Engineering 101 with fundamentals in Arduino, circuit theory, and theremin projects."
+      "Mentored 20+ students weekly in C programming labs, guiding them in debugging, data structures, and algorithmic thinking.",
+      "Supported 20+ first-year students in Engineering 101 with fundamentals in Arduino, circuit theory, and theremin projects."
     ],
   },
   {
