@@ -1,24 +1,4 @@
 
-// "use client";
-// import React from "react";
-// import { techIcons } from "./data";
-// import NextImage from "next/image";
-
-// export default function TechStack() {
-//   return (
-//     <div className="section mb-24">
-//       <p className="section-header">Tech Stack</p>
-//       <div className="flex flex-wrap gap-4 justify-center">
-//         {Object.entries(techIcons).map(([tech, iconPath], idx) => (
-//           <div key={idx} className="flex flex-col items-center">
-//             <NextImage src={iconPath} alt={`${tech} icon`} width={40} height={40} />
-//             <p className="text-sm mt-2 text-center">{tech}</p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
 "use client";
 import React from "react";
 import { techIcons } from "./data";
