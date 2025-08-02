@@ -54,7 +54,7 @@ export default function Header() {
               <Mail size={18} />
               <p className="icon-text">Email</p>
             </Link>
-            <Link href="/Jannat_resume_.pdf" target="_blank" className="icons">
+            <Link href="/jannatResume.pdf" target="_blank" className="icons">
               <FileText size={18} />
               <p className="icon-text">Resume</p>
             </Link>
