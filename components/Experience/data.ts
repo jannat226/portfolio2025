@@ -79,7 +79,7 @@ export const experiences: Experience[] = [
     description: [
       "Developed a student-alumni mentoring interface using Google Sheets and Apps Script for Career Services.",
       "Implemented features such as mentor profile viewing and automated email delivery, enhancing user experience.",
-      "Streamlined mentorship processes for over 100 students, significantly improving engagement and accessibility."
+      "The platform is now being used by more than 100 students, significantly improving engagement and accessibility."
     ],
   },
   {
