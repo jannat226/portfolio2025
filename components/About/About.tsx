@@ -28,7 +28,7 @@ export default function About() {
         <br /><br />
         Whether I am optimizing data pipelines or crafting intuitive UI, I love solving real-world problems 
         through tech. When I am not coding, you will find me exploring new frameworks or chasing down bugs 
-        like its a competitive sport.
+        like mastering the perfect serve in tennis — except bugs don't usually cooperate as nicely as tennis balls!
       </p>
     </div>
   );
