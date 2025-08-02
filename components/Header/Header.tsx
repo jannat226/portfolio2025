@@ -1,5 +1,5 @@
 "use client";
-import { Linkedin, Github, FileText } from "lucide-react";
+import { Linkedin, Github, FileText, Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 // import React, { useState, useEffect } from "react";
@@ -49,6 +49,10 @@ export default function Header() {
             <Link href="https://github.com/jannat226/" target="_blank" className="icons">
               <Github size={18} />
               <p className="icon-text">GitHub</p>
+            </Link>
+            <Link href="mailto:jannatchehal09@gmail.com" className="icons">
+              <Mail size={18} />
+              <p className="icon-text">Email</p>
             </Link>
             <Link href="/jannatResume.pdf" target="_blank" className="icons">
               <FileText size={18} />
